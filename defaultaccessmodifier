@@ -1,6 +1,6 @@
 package vandana.projects.com;
 
-public class AccesDefaultModifier {
+public class DefaultAccessModifier {
 	public static void main(String[] args) {
 		
 		System.out.println("Dafault Access Specifier");
