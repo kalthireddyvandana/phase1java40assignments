@@ -1,4 +1,4 @@
-package vandana projects.com;
+package vandana.projects.com;
 import java.util.Scanner;
 public class ArthematicCalculator {
 
