@@ -1,4 +1,4 @@
-package vijay.assitedprojects.com;
+package vandana.projects.com;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.FileWriter;
@@ -21,7 +21,7 @@ public class CreateNewFile {
 	}
 	private static void createFileUsingFileClass() throws IOException
     {
-          File file = new File("C:\\Users\\vijay vijju\\Desktop\\file handling");
+          File file = new File("C:\\Users\\vandana \\Desktop\\file handling");
   
           //Create the file
           if (file.createNewFile()){
