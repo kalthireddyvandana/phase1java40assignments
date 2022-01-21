@@ -38,7 +38,7 @@ public class CreateNewFile {
     private static void createFileUsingFileOutputStreamClass() throws IOException
     {
         String data = "Test data";
-        FileOutputStream out = new FileOutputStream("C:\\Users\\vijay vijju\\Desktop\\file handling\\fh 1");
+        FileOutputStream out = new FileOutputStream("C:\\Users\\vandana \\Desktop\\file handling\\fh 1");
         out.write(data.getBytes());
         out.close();
     }
@@ -46,7 +46,7 @@ public class CreateNewFile {
     private static void createFileIn_NIO()  throws IOException
     {
         String data = "Test data";
-        Files.write(Paths.get("C:\\Users\\vijay vijju\\Desktop\\file handling\\fh 2"), data.getBytes());
+        Files.write(Paths.get("C:\\Users\\vandana \\Desktop\\file handling\\fh 2"), data.getBytes());
         List<String> lines = Arrays.asList("1st line", "2nd line");
        Files.write(Paths.get("file6.txt"),
                     lines,
